@@ -14,7 +14,7 @@ jobs:
       - name: work
         run: |
           echo "Linting"
-          npm run lint
+          npm  lint
           echo "testing"
           npm test
           echo "building"
