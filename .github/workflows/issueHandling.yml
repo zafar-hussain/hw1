@@ -9,7 +9,7 @@ jobs:
       - name: get details
         run: |
           echo "Issue details"
-          echo ${{ github.event.issue }}
+          echo ${{ github.event.issue.number }}
 
 
 
