@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: get details
         run: |
-          echo "${{  toJSON(github) }}"
+          echo "Issue details"
           echo ${{ github.event.issue }}
 
 
