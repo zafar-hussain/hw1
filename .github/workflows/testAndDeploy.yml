@@ -13,7 +13,7 @@ jobs:
         run: npm test
       - name: lintig
         run: |
-          npm list
+          npm lint
           echo "Linting"
           echo "building"
           echo "deploying"
