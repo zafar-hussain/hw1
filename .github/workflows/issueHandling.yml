@@ -9,7 +9,7 @@ jobs:
       - name: get details
         run: |
           echo "Issue details"
-          echo ${{ toJSON(github) }}
+          echo ${{ toJSON(github.event) }}
 
 
 
