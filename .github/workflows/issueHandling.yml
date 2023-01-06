@@ -8,8 +8,8 @@ jobs:
     steps:
       - name: get details
         run: |
-          echo "Issue details"
-          echo ${{ toJSON(github.event) }}
-
+          echo A comment on PR $NUMBER
+        env:
+          NUMBER: ${{ github.event.issue.number }}
 
 
